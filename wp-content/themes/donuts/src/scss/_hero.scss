@@ -1,0 +1,36 @@
+.hero {
+  background: $red;
+  height: 1013px;
+  overflow: hidden;
+
+  .container {
+    position: relative;
+  }
+
+  h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 133.933px;
+    line-height: 159px;
+    text-transform: uppercase;
+    color: $white;
+    margin: 0;
+    padding-top: 13%;
+    padding-left: 34px;
+  }
+
+  &-img__donut-one {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    animation: balloon1 12s infinite ease-in-out;
+  }
+
+  &-img__donut-two {
+    position: absolute;
+    bottom: -273px;
+    left: 391px;
+    animation: balloon2 12s infinite ease-in-out;
+  }
+}

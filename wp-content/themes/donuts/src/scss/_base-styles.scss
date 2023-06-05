@@ -1,0 +1,33 @@
+.container {
+  max-width: 2011px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@keyframes balloon1 {
+  0%, 100% {
+    transform: translate(0,-10px) rotate(4deg);
+  }
+  50% {
+    transform: translate(-10px,20px) rotate(-6deg);
+  }
+}
+@keyframes balloon2 {
+  0%, 100% {
+    transform: translate(0,-14px) rotate(-6deg);
+  }
+  50% {
+    transform: translate(-14px,20px) rotate(4deg);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-300px * 10));
+  }
+}

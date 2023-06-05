@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Unbounded-Regular'),
+  url('../fonts/Unbounded-Regular.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+  font-display: swap;
+
+}
+
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik-Regular'),
+  url('../fonts/Rubik-Regular.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rubik-Bold'),
+  url('../fonts/Rubik-Bold.ttf') format('truetype');
+  unicode-range: U+000-5FF; /* Latin glyphs */
+  font-display: swap;
+}

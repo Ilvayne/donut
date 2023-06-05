@@ -1,0 +1,135 @@
+.second-block {
+  border-bottom: 1px solid $black;
+  margin-bottom: 95px;
+
+  &__container {
+    max-width: 1670.09px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  &__filter-text {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $black;
+    margin-left: auto;
+    margin-top: 39px;
+    padding-right: 22px;
+  }
+
+  &__video-wrapper {
+    background: $light-grey;
+    border-radius: 40px;
+    height: 906px;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+  }
+
+  &__donut-left {
+    position: absolute;
+    left: -447px;
+    top: -214px;
+  }
+
+  &__donut-right {
+    position: absolute;
+    right: -447px;
+    bottom: -113px;
+  }
+
+  &__donut-play-phone {
+    position: absolute;
+    left: 642px;
+    top: 35px;
+  }
+
+  &__donut-play-left {
+    position: absolute;
+    top: 258px;
+    left: 416px;
+  }
+
+  &__donut-play-right {
+    position: absolute;
+    right: 412px;
+    top: -28px;
+    z-index: 1;
+  }
+
+  &__donut-play-right-two {
+    position: absolute;
+    right: 536px;
+    top: 56px;
+    z-index: 1;
+  }
+
+  .video-player{
+    width: 354px;
+    margin: 62px auto 0;
+    height: 764px;
+    border-radius: 46px;
+    overflow: hidden;
+
+    .plyr__control--overlaid {
+      background: $white;
+    }
+
+    button.plyr__control.plyr__control--overlaid svg {
+      fill: $redPlay;
+    }
+  }
+
+  &__bottom {
+    max-width: 750px;
+    margin: -22px auto 0 255px;
+    h5 {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 128%;
+      text-align: right;
+      color: $black;
+      margin-bottom: 18px;
+    }
+
+    &-text {
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 128%;
+      text-align: right;
+      color: $black;
+    }
+  }
+
+  &__running_stroke {
+    animation: scroll 45s linear infinite;
+    display: flex;
+    width: calc(803px * 70);
+    margin-top: 27px;
+
+    p {
+      font-family: 'Unbounded', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 128px;
+      line-height: 152px;
+      color: $black;
+      margin-bottom: 49px;
+    }
+  }
+
+  &__running-wrapper {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+ height: 124px;
+
+ .container {
+   height: inherit;
+ }
+
+ &-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: inherit;
+ }
+
+ .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  li {
+    a {
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 105%;
+      color: $black;
+      text-decoration: none;
+    }
+  }
+ }
+
+ .main-navigation {
+  width: 79.2%;
+ }
+}
